@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>CV</title>
+		<meta charset="UTF-8">
+		<style>
+			img{
+				float: right;
+				border-style: dotted;
+				border-width: 1px;
+				width: 8em;
+				height: 8em;
+			}
+			#tete{
+				background-color: #eeeeff;
+				color: purple;
+				padding-bottom: 1em;
+				padding-top: 0em;
+			}
+			#corps{
+				background-color: #ffffee;
+				padding-top: 1em;
+				padding-bottom: 1em;
+			}
+			h1{
+				margin-left: auto;
+				margin-right: auto;
+			}
+			body{
+				background-color: #dddddd;
+				font-size: 120%;
+			}
+			address{
+				font-size: 85%;
+				color: purple;
+				margin-top: 1ex;
+			}
+			sup{
+				font-size: 1ex;
+			}
+			.institut{
+				font-style: italic;
+				color: #008800;
+			}
+			.periode{
+				float: right;
+				color: #0000cc;
+			}
+			.lieu{
+				color: purple;
+				font-variant: small-caps;
+			}
+			#pied{
+				background-color: #ffffaa;
+				padding-top: 0.5em;
+				padding-bottom: 0;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+				border-top-style: solid;
+				border-top-width: 1px;
+				margin-top: 1em;
+			}
+			#tete, #corps, #pied{
+				padding-left: 1em;
+				padding-right: 1em;
+			}
+			#tete h1{
+				color: purple;
+				font-family: cursive;
+				font-size: 2em;
+				margin-top: 0;
+				margin-bottom: 0;
+				font-variant: small-caps;
+			}
+			.profession{
+				color: red;
+			}
+			#corps h1{
+				background-color: #eeeeee;
+				border-style: solid;
+				border-width: 2px;
+				text-align: center;
+				font-variant: small-caps;
+				box-shadow: 0.4ex 0.4ex #999999;
+				margin: 0;
+			}
+			ul{
+				list-style-position: inside;
+				margin: 0;
+				padding: 0;
+			}
+			.lniv1{
+				list-style-type: square;
+				padding-left: 1em;
+				padding-right: 1em;
+				padding-bottom: 1.5em;
+				padding-top: 0.5ex;
+			}
+			.lniv1 li{
+				padding-top: 1em;
+			}
+			.lniv2{
+				list-style-image: url('checkmark.gif');
+				padding-left: 1em;
+				padding-top: 0;
+			}
+			.lniv2 li{
+				padding-top: 0.5ex;
+			}
+			#etatcivil{
+				width: 50%;
+			}
+			#navigation{
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 1em;
+				margin-bottom: 1em;
+				width: 27em;
+			}
+			.lnav{
+				list-style-type: none;
+				overflow: auto;
+			}
+			.lnav li{
+				background-color: gray;
+				text-align: center;
+				width: 9em;
+				float: left;
+			}
+			.lnav a{
+				text-decoration: none;
+				text-transform: uppercase;
+				color: yellow;
+			}
+			.lnav li:active{
+				background-color: blue;
+			}
+			.lnav li:hover{
+				background-color: blue;
+			}
+		</style>
+	</head>
+	<body>
+			<div id="tete">
+				<img src="" alt="ma photo">
+				<div id="etatcivil">
+				<h1>AMIRI ADIL</h1>
+				<address>24 B RUE ARISTIDE BRIAND CROUS CITE MEDREVILLE<br/>
+					54520 Laxou<br/>
+					Tel portable&nbsp;: 06.60.56.97.56<br/>
+					C&eacute;libataire, 18 ans, Algerien
+				</address>
+				</div>
+			</div>
+			
+			<div id="navigation">
+				<ul class="lnav">
+					<li><a href="#experiences">exp&eacute;riences</a></li>
+					<li><a href="#formation">formation</a></li>
+					<li><a href="#langues">langues</a></li>
+				</ul>
+			</div>
+			
+			<div id="corps">
+				<h1 id="experiences">Exp&eacute;riences professionnelles</h1>
+				<ul class="lniv1">
+					<li><span class="periode">janvier 2020</span><span class="profession">Stage boulangerie ann&eacute;e college</span> <span class="institut">O pain de nice</span>,<span class="lieu">cambrai&nbsp;france</span>
+						<ul class="lniv2">
+							<li>pr&eacute;paration interne</li>
+							<li>vente et &eacute;change avec le client</li>
+						</ul>
+					</li>
+					<li><span class="periode">juillet-aout 2021</span><span class="profession">employer dans une boulangerie</span> <span class="institut">O pain de nice</span>, <span class="lieu">cambrai</span>
+						<ul class="lniv2">
+							<li>pr&eacute;paration interne</li>
+							<li>vente et &eacute;change avec le client</li>
+						</ul>	
+					</li>
+					<li><span class="periode">juin-aout 2023</span><span class="profession">Livreur uber eats</span> <span class="institut">uber eats</span>, <span class="lieu">valencienne</span>
+						<ul class="lniv2">
+							<li>livrer des commande fournit par les resterant et les ramener aux clients</li>
+						</ul>	
+					</li>
+				</ul>
+				<h1 id="formation">Formation</h1>
+				<ul class="lniv1">
+					<li><span class="periode">juin 2012</span><span class="profession">Ing&eacute;nieur Systèmes, R&eacute;seaux et T&eacute;l&eacute;communications,</span> <span class="institut">Universit&eacute; de
+Technologie de Troyes</span>
+						<ul class="lniv2">
+					<li><span class="periode">septembre-decembre 2023</span><span class="profession">BUT R&eacute;seaux et T&eacute;l&eacute;communications,</span> <span class="institut">IUT de Nancy - Brabois</span></li>
+					<li><span class="periode">juin 2023</span><span class="profession">BaccalauréatSTI et du d&eacute;veloppement durable</span> <span class="institut">Lyc&eacute;e du Hainaut valencienne</span></li>
+				</ul>
+				<h1 id="langues">Langues</h1>
+				<ul class="lniv1">
+					<li><span class="profession">Anglais, Arabe, espangol</span>
+						<ul class="lniv2">
+							<li>Langue maternel: Arabe</li>
+							<li>niveau A2 anglais</li>
+                            <li>niveau A2 espangol</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="pied">
+				CV powered by my own HTML skills<br/>
+				R&amp;T&nbsp;&mdash;&nbsp;2023
+			</div>
+	</body>
+</html>
